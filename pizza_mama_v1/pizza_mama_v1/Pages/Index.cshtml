@@ -1,0 +1,18 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <link href="~/css/StyleSheet.css" rel="stylesheet" />
+        <title>PizzaMama</title>
+    </head>
+    <body class="homePage">
+        <div class="centered">
+            <img src="~/images/main_logo.png" />
+            <a class="homePage" asp-page="MenuPizzas">Voir le menu des pizzas</a>
+        </div>
+    </body>
+</html>
